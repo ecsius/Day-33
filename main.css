@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-links-h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* FLEXBOX */
+
+
+/* Flebox Container */
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Flexbox Items */
+.gallery-img {
+    flex-basis: 90%;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.gallery-img img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 762px) {
+    .gallery-links-h2 {
+        font-size: 50px;
+    }
+
+    .gallery-img {
+        flex-basis: 300px;
+    }
+}
